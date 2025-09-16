@@ -1,0 +1,42 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 9vh;
+    background-color: rgb(238, 139, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+header p{
+    padding: 0%;
+    margin: 0%;
+    font-size: 36px;
+    color: white;
+}
+main{
+    width: 100vw;
+    height: 91vh;
+}
+#itemContainer{
+    width:71vw;
+    height: 91vh;
+    background-color: rgb(110, 167, 218);
+    display: flex;
+  
+    justify-content: center;
+    overflow: scroll;
+     scrollbar-width:thin;
+}
+#showItem{
+    width: 98%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    height: 170vh;
+}
